@@ -32,7 +32,7 @@ previous data requested by customer so as to prevent the chatbot from asking
  created in the intent CheckBalance This tag stores information about'
  customers data
   <br/>
-<img src="images/lx15.png" height="80%" width="80%" alt="key steps"/>
+<img src="images/lx24.png" height="80%" width="80%" alt="key steps"/>
 <br />
  FollowUpCheckBalance
  I created a new intent called FollowupCheckBalance. The purpose of this intent
@@ -40,7 +40,7 @@ previous data requested by customer so as to prevent the chatbot from asking
  birth again
  This intent is connected to the previous intent I made, CheckBalance, because'
  FollowUpCheckbalance will only get triggered after the user has checked their  balance once already <br/>
- <img src="images/lx16.png" height="80%" width="80%" alt="key steps"/>
+ <img src="images/lx25.png" height="80%" width="80%" alt="key steps"/>
 <br />
  
 <br />
@@ -48,7 +48,7 @@ previous data requested by customer so as to prevent the chatbot from asking
  I created an input context, contextCheckBalance, that' is using the exact same
  tag as the output context tag i've set up in the CheckBalance intent.
   <br/>
-<img src="images/lx17.png" height="80%" width="80%" alt="key steps"/>
+<img src="images/lx26.png" height="80%" width="80%" alt="key steps"/>
 <br />
 
 <br />
@@ -59,7 +59,7 @@ previous data requested by customer so as to prevent the chatbot from asking
  If I had gone straight to trying to trigger FollowUpCheckBalance without setting
  up any context'my chatbot will not have the context needed to fulfill the
  conversation.As a result,it will return the Fallbackintent.<br/>
-<img src="images/lx19.png" height="80%" width="80%" alt="key steps"/>
+<img src="images/lx27.png" height="80%" width="80%" alt="key steps"/>
 <br />
 </p>
 
